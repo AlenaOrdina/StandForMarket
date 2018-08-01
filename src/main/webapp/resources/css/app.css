@@ -1,0 +1,9 @@
+@import 'normalize.css';
+@import 'common.css';
+@import 'GUI.css';
+@import 'header.css';
+@import "registration.css";
+@import "products.css";
+@import "bucket.css";
+@import "account.css";
+@import "tables.css";

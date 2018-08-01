@@ -1,0 +1,88 @@
+.bg__wrapper{
+    background: url(/resources/img/background1.png) no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.container__wrapper{
+    width: auto;
+    background: rgba(255, 255, 255, 0.8);
+    min-height: 100%;
+    margin: 0 auto;
+    z-index: 1;
+    padding: 0 30px;
+}
+
+.clearfix:after {
+    content: '';
+    display: table;
+    width: 100%;
+    clear: both;
+}
+
+a.link{
+    background: none;
+    color: inherit;
+    display: inline-block;
+    text-decoration: none;
+}
+a.link_default{
+    color: grey;
+    text-decoration: underline;
+    border: 1px solid grey;
+}
+a.link_contact:hover{
+    text-decoration: underline;
+}
+a.link_header{
+        color: #FF1493;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: .3s;
+}
+a.link_header:hover{
+    background: #FF1493;
+    color: #ffffff;
+    cursor: pointer;
+}
+a.link_product{
+    color:#FF1493;
+}
+
+.error{
+    color:#FF1493;
+}
+.mytitle{
+    color:#FF1493;
+    font-size: medium;
+}
+a.btn1 {
+    position: relative;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: -1px -1px #000;
+    user-select: none;
+    padding: .8em 2em;
+    outline: none;
+    background-color: #000;
+    background-image: linear-gradient(45deg, rgba(255,255,255,.0) 30%, rgba(255,255,255,.8), rgba(255,255,255,.0) 70%), radial-gradient(190% 100% at 50% 0%, rgba(255,255,255,.7) 0%, rgba(255,255,255,.5) 50%, rgba(0,0,0,0) 50%);
+    background-repeat: no-repeat;
+    background-size: 200% 100%, auto;
+    background-position: 200% 0, 0 0;
+    box-shadow: rgba(255, 0, 255, 0.3) 0 2px 5px;
+}
+a.btn1:active {
+    top: 1px;
+    box-shadow: none;
+}
+a.btn1:hover {
+    transition: .5s linear;
+    background-position: -200% 0, 0 0;
+}

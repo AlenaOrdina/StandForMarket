@@ -1,0 +1,39 @@
+.account__main dt{
+    color:#FF1493;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.account__main dd p{
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+.account__main h2{
+    color: #FF1493;
+}
+
+.account__wrapper{
+    text-align: center;
+    padding: 10px 0px;
+}
+
+
+.addresses_wrapper{
+    text-align: center;
+}
+
+.address__wrapper{
+    display: inline-block;
+}
+.address__wrapper dl{
+    margin: 5px 25px;
+}
+
+.account__change_links{
+    padding-bottom: 50px;
+}
+.account__change_links li{
+    display: inline-block;
+}
+.account__change_links a{
+    padding: 5px 10px;
+}

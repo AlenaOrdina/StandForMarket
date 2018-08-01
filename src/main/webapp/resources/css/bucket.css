@@ -1,0 +1,43 @@
+.bucket__head{
+    color: #FF1493;
+}
+
+.bucket__item{
+    padding: 20px 0;
+    border-bottom: lightgrey solid 1px;
+    text-align: center;
+}
+
+.bucket__item_column{
+    display: inline-block;
+    vertical-align: top;
+    /*width: 200px;*/
+    margin: 0 30px;
+}
+.column__type {
+    font-size: 14px;
+    color: grey;
+    border-bottom: lightgrey solid 1px;
+}
+
+.bucket__item_column dl dt{
+    padding-top: 8px;
+}
+.bucket__item_column dl dd{
+    padding: 1px 0;
+}
+
+.bucket__item_img{
+    width: 70px;
+    height:  110px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+.bucket__item_description dl dt{
+    font-size: 18px;
+}
