@@ -1,5 +1,5 @@
 .bg__wrapper{
-    background: url(/resources/img/background1.png) no-repeat center;
+    background: no-repeat center;
     -webkit-background-size: cover;
     background-size: cover;
     position: fixed;
